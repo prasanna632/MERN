@@ -1,6 +1,5 @@
 import React from 'react'
-
-export const About = ({dept,name,age}) => {
+const About = ({dept,name,age}) => {
   return (
     <div>
         <p>Name: {name}</p>

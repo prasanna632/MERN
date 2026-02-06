@@ -1,9 +1,9 @@
 import {Routes,Route} from 'react-router-dom'
 import Navbar from './component/Navbar'
-import Home from './Pages/Home'
-import About from './Pages/About'
-import Contact from './Pages/Contact'
-import Service from './Pages/Service'
+import Home from './pages/Home'
+import About from './pages/About'
+import Contact from './pages/contact'
+import Service from './pages/Service'
 import UseState from './Hooks/UseState'
 import Login from './Auth/Login'
 import Hook from './Hooks/Hook'
@@ -15,6 +15,7 @@ import UseReducer from './Hooks/UseReducer'
 import UseMemo from './Hooks/UseMemo'
 import UseCallback from './Hooks/UseCallback'
 import Todo from './component/Todo'
+
 
 const App = () => {
   return (
